@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Verdana', 'sans-serif';
+}
+/* header con logo a sinistra e link a destra */
+.header {
+    display: flex;
+    justify-content: space-around; /*posiziona il logo a sinistra e il menù di navigazione a destra */
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center; /* Allinea gli elementi verticalmente */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Spazio tra gli elementi */
+    
+}
+
+nav ul a {
+    color: white;
+    font-weight: normal;
+}
+
+nav ul a:hover {
+    color: aqua;
+}
